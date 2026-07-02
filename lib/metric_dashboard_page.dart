@@ -30,7 +30,7 @@ class MetricDashboardPage extends StatelessWidget {
                 children: [
                   Text('Good Morning', style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold, color: Colors.white)),
                   SizedBox(height: 4),
-                  Text('Wednesday, May 14, 2026', style: TextStyle(fontSize: 14, color: Colors.white80)),
+                  Text('Wednesday, May 14, 2026', style: TextStyle(fontSize: 14, color: Colors.white70)),
                 ],
               ),
             ),

@@ -65,19 +65,26 @@ class ProfileSettingsPage extends StatelessWidget {
                   Container(
                     padding: const EdgeInsets.all(16),
                     decoration: BoxDecoration(color: const Color(0xFF15803D), borderRadius: BorderRadius.circular(24)),
-                    child: const Row(
+                    child: Row(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Icon(Icons.check_circle, color: Colors.white, size: 28),
-                        SizedBox(width: 12),
-                        Expanded(
+                        const Icon(Icons.check_circle, color: Colors.white, size: 28),
+                        const SizedBox(width: 12),
+                        const Expanded(
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text('100% Automated Sync', style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: Colors.white)),
-                              Text('All devices connected seamlessly', style: TextStyle(fontSize: 12, color: Colors.white80)),
+                              Text('All devices connected seamlessly', style: TextStyle(fontSize: 12, color: Colors.white70)),
                               SizedBox(height: 8),
-                              Text('Your health data syncs automatically across all devices. No manual logging required.', style: TextStyle(color: Colors.whiteE4, color: Colors.white.withOpacity(0.9), height: 1.3)),
+                            ],
+                          ),
+                        ),
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text('Your health data syncs automatically across all devices. No manual logging required.', style: TextStyle(color: Colors.white.withOpacity(0.9), height: 1.3)),
                             ],
                           ),
                         )

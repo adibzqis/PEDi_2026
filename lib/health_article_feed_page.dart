@@ -62,9 +62,9 @@ class HealthArticleFeedPage extends StatelessWidget {
                           style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold, color: Colors.white, height: 1.3),
                         ),
                         const SizedBox(height: 12),
-                        const Text(
+                        Text(
                           'Our AI detected a 2.5-hour variance in your sleep schedule. This article translates your raw sleep data into a specific, evidence-based intervention plan to restore your circadian rhythm.',
-                          style: TextStyle(color: Colors.white, color: Colors.white.withOpacity(0.9), height: 1.4),
+                          style: TextStyle(color: Colors.white.withOpacity(0.9), height: 1.4),
                         ),
                         const SizedBox(height: 20),
                         Row(
@@ -183,7 +183,7 @@ class HealthArticleFeedPage extends StatelessWidget {
       child: ClipRRect(
         borderRadius: BorderRadius.circular(20),
         child: Container(
-          border: Border(top: BorderSide(color: lineColor, width: 4)),
+          decoration: BoxDecoration(border: Border(top: BorderSide(color: lineColor, width: 4))),
           padding: const EdgeInsets.all(20),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,

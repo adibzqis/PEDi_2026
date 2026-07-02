@@ -29,7 +29,7 @@ class AiHealthReviewPage extends StatelessWidget {
                     ],
                   ),
                   SizedBox(height: 4),
-                  Text('Anomaly & Risk Detection Engine', style: TextStyle(fontSize: 14, color: Colors.white80)),
+                  Text('Anomaly & Risk Detection Engine', style: TextStyle(fontSize: 14, color: Colors.white70)),
                 ],
               ),
             ),
